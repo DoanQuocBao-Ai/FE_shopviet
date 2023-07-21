@@ -1,0 +1,14 @@
+.product-list {
+    display: flex;
+    overflow-x: scroll; /* Enable horizontal scrolling */
+    background-color: #f79191;
+    size: 500px;
+    scroll-behavior: smooth; /* cho phép cuộn mượt hơn */
+  }
+  
+  .product-item {
+    flex: 0 0 auto; /* Prevent items from shrinking or growing */
+    margin-right: 20px; /* Add space between items */
+    border-radius: 6px;
+
+  }

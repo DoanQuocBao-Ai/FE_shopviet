@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+:root{
+  --black: #343434;
+  --bg: #F8E367;
+
+}
